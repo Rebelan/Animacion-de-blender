@@ -1,7 +1,7 @@
 
 import Features from './components/Features'
 import Hero from './components/Hero'
-
+import './index.css'
 
 export const App = () => {
   return (
