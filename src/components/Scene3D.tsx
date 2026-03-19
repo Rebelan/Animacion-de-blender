@@ -19,7 +19,7 @@ function Model() {
 
 export default function Scene3D() {
   return (
-    <Canvas style={{width: "50vw", height: "50vh", overflow:"hidden"}}>
+    <Canvas style={{width: "50vw", height: "50vh", overflow:"hidden"}} className='bg-gray-800'>
       <ambientLight intensity={0.5} />
       <directionalLight position={[5, 5, 5]} />
 
