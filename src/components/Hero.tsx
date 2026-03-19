@@ -4,10 +4,10 @@ import { Button } from "./ui/button"
 
 export default function Hero() {
   return (
-    <section className='h-screen grid grid-cols-2'>
+    <section className='h-screen flex flex-col items-center'>
       
       {/* TEXTO */}
-      <div className='flex flex-col justify-center px-12'>
+      <div className='flex flex-col justify-center px-12 mb-3'>
         <h1 className='text-5xl font-bold mb-6'>
           IES Albarregas
         </h1>
